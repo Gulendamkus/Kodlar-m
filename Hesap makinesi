@@ -1,0 +1,33 @@
+#include<stdlib.h>
+#include<stdio.h>
+int main(void)
+{
+int sayi1,sayi2,toplama,cikarma,carpma,bolme,islem  ; 
+
+
+printf("bir sayi giriniz.\n",sayi1);
+scanf("%d",&sayi1); 
+printf("bir sayi giriniz.\n",sayi2);
+scanf("%d",&sayi2);
+ printf("toplamak icin 1 \n",toplama);
+ printf("cikarma icin 2 \n",cikarma);
+ printf("carpma icin 3  \n",carpma);
+printf("bolme icin 4 \n",bolme);
+printf("islem seciniz \n",islem);
+scanf("%d",&islem);
+ if(islem==1) {
+ 	printf("toplam =%d",toplama=sayi1+sayi2);
+  }
+ else if (islem==2) {
+ 	printf("cikarma=%d",cikarma=sayi1-sayi2);
+ }
+ else if(islem==3) {
+ 	printf("carpma =%d", carpma=sayi1*sayi2);
+ }
+ else if(islem==4)  {
+ 
+ printf("bolme = %d",bolme=sayi1/sayi2);
+ 	
+ }
+return 0;
+}
