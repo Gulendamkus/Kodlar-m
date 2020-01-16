@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main(){
+	int sayi,buyuk=0;
+	char devam;
+	do {
+	
+	printf("lutfen bi sayi giriniz..\n");
+	scanf("%d",&sayi);
+	printf("girdiginiz sayi %d..\n",sayi);
+    
+		if(sayi>buyuk) {
+			buyuk=sayi;
+			printf("yeni buyuk sayi %d.. \n",buyuk);
+			
+			} 
+			else{ 
+		printf("buyuk sayi hala ayni..\n");
+	
+           }
+           printf("buyuk sayiyi hesaplamak istiyor musunuz?..\n");
+           scanf("%s",&devam);
+            }while(devam=='E'|| devam=='e');
+            
+		return 0;
+	}
