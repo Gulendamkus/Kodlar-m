@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+
+int main() 
+{
+	int s,u,r;
+	int g = 0;
+	printf("uzunluk girin  ");
+	scanf("%d",&u);
+	printf("yukseklik girin ");
+	scanf("%d",&s);
+	for(int satir=0;satir<s;satir++)
+	{
+		for(int bosluk = 0 ; bosluk < ((s-1)-g) ; bosluk++)
+		{
+			printf(" ");
+		
+		}		
+		
+		
+		for(int j = 0; j < u ; j++)
+		{
+			printf("*");
+		}
+		
+		printf("\n");
+		g = g+1;
+		
+	}
+}
