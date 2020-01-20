@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main() {
+	int sayi;
+	
+	printf("tek sayi mi cift sayi mi bulmak istediginiz sayiyi giriniz..\n");
+	scanf("%d",&sayi);
+	
+	
+	if(sayi%2==0){
+		printf("girdiginiz sayi cift sayidir..\n");
+		
+		
+	}
+	if(sayi%2==1){
+		printf("sayi tek sayidir..\n");
+		
+		
+	}
+	return 0;
+}
