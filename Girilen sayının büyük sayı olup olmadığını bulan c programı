@@ -7,7 +7,7 @@ int main(){
 	
 	printf("lutfen bi sayi giriniz..\n");
 	scanf("%d",&sayi);
-	printf("girdiginiz sayi %d..\n",sayi);
+	//printf("girdiginiz sayi %d..\n",sayi);
     
 		if(sayi>buyuk) {
 			buyuk=sayi;
