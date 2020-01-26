@@ -1,0 +1,18 @@
+#include<stdlib.h>
+#include<stdio.h>
+int main() {
+	int sutun,satir,sayi,bosluk;
+	printf("sayi gir..\n");
+	scanf("%d",&sayi);
+	 for(satir=1;satir<sayi;satir++) {
+	 	bosluk=sayi-satir;
+	 	printf(" ");
+	 	for(sutun=1;sutun<satir;sutun++){
+	 		printf("*");
+	 		
+		 }
+		 printf("\n");
+	 }
+	 return 0;
+	 
+}
